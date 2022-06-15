@@ -1,0 +1,57 @@
+{
+  "version": "0.15.3",
+  "license": "MIT",
+  "main": "dist/index.js",
+  "module": "dist/lowcode-lib.esm.js",
+  "browser": "dist/lowcode-lib.esm.js",
+  "typings": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "start": "tsdx watch  --noclean ",
+    "build": "tsdx build ",
+    "test": "tsdx test --passWithNoTests",
+    "lint": "tsdx lint",
+    "prepare": "tsdx build"
+  },
+  "peerDependencies": {
+    "animate.css": ">=4",
+    "antd": ">=4",
+    "react": ">=16.8"
+  },
+  "name": "lowcode-lib",
+  "devDependencies": {
+    "@ant-design/icons": "^4.6.2",
+    "@types/react": "^17.0.0",
+    "@types/react-color": "^3.0.4",
+    "@types/react-dom": "^17.0.0",
+    "@types/uuid": "^8.3.0",
+    "antd": "^4.15.2",
+    "babel-plugin-import": "^1.13.3",
+    "babel-plugin-import-v2": "^1.0.0",
+    "less": "^4.1.1",
+    "postcss": "^8.2.8",
+    "postcss-modules": "^4.0.0",
+    "react": "17.x",
+    "react-dom": "17.x",
+    "rollup-plugin-postcss": "^4.0.0",
+    "size-limit": "^4.10.1",
+    "tsdx": "^0.14.1"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "deepcopy": "^2.1.0",
+    "nanoid": "^3.1.23",
+    "react-color": "^2.19.3",
+    "react-intl": "file:../node_modules/react-intl",
+    "react-sortable-hoc": "^2.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/H5-Dooring/lowcode.git"
+  }
+}
